@@ -1,0 +1,728 @@
+    /*全局css*/
+    html,body{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+        width: 100%;
+    }
+    a{
+        cursor: pointer;
+        text-decoration:none;
+        color: #333;
+    }
+    span{
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    p{
+        display: inline-block;
+    }
+    .m-nav,.m-product,.tab,.class div,.institution,.hot,.class .oneclass .hover .up{
+        background-color: #fff;
+    }
+    .content{
+        width: 1205px;
+        margin: auto auto;
+        color: #333;
+    }
+
+    .edu{
+        font-size: 28px;
+        line-height: 89px;
+        font-weight: bold;
+        font-family: "Gill Sans MT";
+        color: #39a030;
+    }
+    .title163{
+
+      font-size: 22px;
+      font-family: "Hiragino Sans GB";
+    }
+    .clearfix:after{
+	    	content:'.';
+	    	display: block;
+	    	clear: both;
+	    	height: 0;
+	    	overflow: hidden;
+	    	visibility: hidden;
+	    }
+
+    /*顶部不再提示部分的css*/
+    .m-top{
+        height: 36px;
+        background-color: #f3f3f3;
+        font-size: 12px;
+        line-height: 36px;
+    }
+    .check{
+        color: #21a557;
+    }
+    .nomore{
+        float: right;
+    }
+
+    /*上方导航栏部分的css*/
+    .m-nav{
+        height: 89px;
+    }
+    .left{
+
+        display: inline-block;
+    }
+    .left p{
+        color: #666;
+        font-size: 12px;
+        font-family: "宋体";
+    }
+    .left img,.m-footer .content .info .big img{
+        vertical-align: middle;
+        margin: 10px;
+    }
+    .focusornot{
+        height: 21px;
+        line-height: 21px;
+        text-align: center;
+        margin-left: 31px;
+        margin-right: 14px;
+        font-size: 12px;
+        font-family: "宋体";
+    }
+    .yes .focus{
+        width: 54px;
+        background-color: #21a557;
+        color: #fff;
+        border-radius: 3px;
+        border: 1px solid #fff;
+    }
+    .focus .add{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .focus:hover{
+        background-color: #2fb556;
+    }
+
+    .no{
+
+        background-color: #f8f8f8;
+        width: 106px;
+        border-radius: 3px;
+        border: 1px solid #efefef;
+    }
+    .no .dismiss{
+        display: inline-block;
+        color: #666;
+        line-height: 22px;
+        vertical-align: top;
+    }
+    .no .dismiss:hover{
+        color: #21a557;
+        text-decoration:underline;
+    }
+    .right{
+        display: inline-block;
+        float: right;
+        line-height: 89px;
+        font-size: 16px;
+    }
+    .right span{
+        color: #666;
+
+    }
+    .right span:hover{
+        color: #21a557;
+
+    }
+    .right #search{
+        margin-left: 30px;
+
+    }
+    .right img{
+        vertical-align: middle;
+        margin-right: 12px;
+    }
+    .right a{
+        margin-left: 54px;
+    }
+
+    /*轮播头图部分的css*/
+    .m-banner{
+        position: relative;
+        height: 460px;
+        width: 100%;
+        overflow: hidden;
+
+    }
+    .m-banner .imgwrap{
+        position: absolute;
+        height: 460px;
+        width: auto;
+    }
+    .imgwrap div{
+        position:absolute;
+        padding: 0;
+        margin: 0;
+    }
+    .m-banner .banner{
+      float: left;
+      width: 1616px;
+      height: 460px;
+    }
+    .m-banner .banner-0{
+        background: url(../wangyi/img/banner1.jpg);
+    }
+    .m-banner .banner-1{
+        background: url(../wangyi/img/banner2.jpg);
+    }
+    .m-banner .banner-2{
+        background: url(../wangyi/img/banner3.jpg);
+    }
+    /*轮播头图下方的小圆点的css*/
+    .slide{
+        position: absolute;
+        bottom: 20px;
+        right: 50%;
+
+    }
+    .slide .prcsswrap{
+        display: inline-block;
+        vertical-align: top;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+        background-color: white;
+        margin-left: 13px;
+    }
+    .slide span:hover{
+        background-color: black;
+    }
+
+    /*轮播头图下面产品的css（网易公开课、云课堂、中国大学MOOC）*/
+    .m-product{
+        height: 297px;
+        padding-top: 61px;
+        padding-bottom: 56px;
+        box-sizing:border-box;
+        font-family: "Microsoft YaHei";
+    }
+    .m-product a :hover{
+        text-decoration:underline;
+    }
+    .public{
+        margin-left: 5px;
+    }
+    .public,.cloud,.mooc{
+        width: 341px;
+        display: inline-block;
+
+    }
+    .cloud,.mooc{
+        margin-left: 83px;
+    }
+    .m-product .img{
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        margin-right: 21px;
+        vertical-align: top;
+        margin-top: 7px;
+    }
+    .m-product .words{
+        display: inline-block;
+        width: 240px;
+    }
+    .words .title{
+        font-size: 22px;
+        line-height: 20px;
+        margin-bottom: 16px;
+    }
+    .words .brief{
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        color: #666;
+    }
+    .words .more{
+        font-size: 14px;
+        color: #39a030;
+        line-height: 24px;
+    }
+
+    /*工作空间部分的css*/
+    .m-jobspace{
+        margin-right: -4px;
+        height: 220px;
+        width: 100%;
+        margin-bottom: 81px;
+    }
+    .m-jobspace img{
+        float: left;
+        width: 20%;
+        padding-right: 4px;
+        box-sizing:border-box;
+        height: 220px;
+    }
+
+    /*下方课程部分的css*/
+    .m-class{
+        margin-bottom: 120px;
+        font-family: "Microsoft YaHei";
+    }
+    .m-class-left{
+        display: inline-block;
+        vertical-align: top;
+        width: 980px;
+
+    }
+    .tab{
+        height: 50px;
+        width: 400px;
+        font-size: 22px;
+        box-shadow: 0px 1px 1px 1px  rgba(6,0,1,0.1);
+        margin-bottom: 30px;
+    }
+    .tab .chosen{
+        color: #fff;
+        background-color: #39a030;
+    }
+    .tab .notchosen{
+        color: #333;
+        background-color: #fff;
+    }
+    .tab span{
+        width: 200px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .class .oneclass{
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        height: 228px;
+        width: 225px;
+        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.039);
+        margin-right: 20px;
+        margin-bottom: 21px;
+    }
+    .class .oneclass:hover{
+        box-shadow: 0px 0px 2px 0px rgba(12, 4, 8, 0.118);
+    }
+
+    .class .oneclass .img{
+        height: 124px;
+        width: 223px;
+        margin: 1px 1px 5px 1px;
+    }
+    .class .oneclass .title ,.class .oneclass .type,.class .oneclass .user,.class .oneclass .price{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .class .oneclass .title,.class .oneclass .type,.m-class .onehot .words,.class .oneclass .hover .up .title{
+        font-size: 12px;
+        line-height: 16.8px;
+        text-overflow:ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .class .oneclass .title{
+        display: inline-block;
+        vertical-align: top;
+        width: 208px;
+    }
+    .class .oneclass .type{
+        color: #999;
+        margin-top: 0px;
+        margin-bottom: 7.6px;
+    }
+    .class .oneclass .user{
+        display: inline-block;
+        height: 18px;
+        line-height: 15px;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        text-align: center;
+        color: #999;
+        font-size: 11px;
+        vertical-align: top;
+        box-sizing:border-box;
+        padding-right: 2px;
+    }
+    /*.class .oneclass .user span{
+        line-height: 18px;
+        vertical-align: middle;
+    }*/
+    .class .oneclass .user img,.m-class .onehot .fans img{
+        vertical-align: top;
+        margin-top: 1px;
+        
+    }
+    
+    .class .oneclass .hover .up .learn img{
+        vertical-align: top;
+        margin-top: 4px;
+    }
+
+    .class .oneclass .price{
+        color: #ff3f00;
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 7px
+    }
+    .class .oneclass .hover{
+        position: absolute;
+        top: -11px;
+        left: -10px;
+        width: 481px;
+        box-shadow: 0px 0px 3px 0px rgba(12, 4, 8, 0.196);
+        z-index: 200;
+        display: none;
+    }
+    .class .oneclass:hover .hover{
+        display: block;
+    }
+    .class .oneclass:hover #title{
+        color: #39a030;
+    }
+    
+    .class .oneclass .hover .bigimg{
+        width: 223px;
+        height: 124px;
+        margin-right: 20px;
+    }
+    .class .oneclass .hover .up{
+        height: 155px;
+        box-sizing:border-box;
+        padding: 11px 0px 20px 10px;
+
+    }
+    .class .oneclass .hover .up .hovertitle{
+        width: 210px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    .class .oneclass .hover .up .learn,.class .oneclass .hover .up .information{
+        font-size: 12px;
+        line-height: 20px;
+        color: #666;
+    }
+    .class .oneclass .hover .up .learn{
+        margin-bottom: 6px;
+    }
+    .class .oneclass .hover .down{
+        /*height: 83px;*/
+        box-sizing:border-box;
+        padding: 0px 33px 10px 20px;
+        font-size: 14px;
+        line-height: 83px;
+        color: #666;
+        background-color: #f8f8f8;
+    }
+    .class .oneclass .hover .down span{
+        line-height: 24px;
+        display: inline-block;
+        vertical-align: middle;
+        /*height: 73px;*/
+        width: 425px;
+        /*text-overflow:ellipsis;
+        overflow: hidden;*/
+    }
+
+    .m-class-right{
+        box-sizing:border-box;
+        display: inline-block;
+        width: 224px;
+        margin-left: 1px;
+    }
+    .institution,.hot{
+        box-shadow: 0px 1px 1px 1px rgba(6, 0, 1, 0.1);
+        margin-bottom: 21px;
+    }
+    .institution .title,.hot .title{
+        box-sizing:border-box;
+        font-size: 16px;
+        line-height: 22px;
+        height: 55px;
+        border-bottom: 1px solid #ddd;
+        padding: 17px 20px;
+    }
+    .m-class .video{
+        height: 173px;
+    }
+    .m-class .video span{
+        color: #666;
+        font-size: 14px;
+        line-height: 22px;
+        padding: 16px 21px 10px 22px;
+    }
+    .m-class .video .img{
+        margin-left: 22px;
+        margin-bottom: 20px;
+        width: 180px;
+        height: 110px;
+    }
+    .hot .title{
+        margin-left: -2px;
+    }
+    .m-class .onehot .img,.m-class .onehot .contents{
+        display: inline-block;
+    }
+    .m-class .onehot:hover{
+        box-shadow: 2px 0px 0px 0px rgba(12, 4, 8, 0.118);
+    }
+    .m-class .onehot .img{
+        width: 50px;
+        height: 50px;
+        margin:20px 12px 21px 20px;
+    }
+    .m-class .onehot .contents{
+        vertical-align: top;
+        margin-top: 19px;
+    }
+    .m-class .onehot .words{
+        font-size: 14px;
+        width: 121px;
+    }
+    .m-class .onehot .fans{
+        display: inline-block;
+        height: 18px;
+        line-height: 18px;
+        color: #999;
+        margin-top: 10px;
+    }
+    .m-class .onehot .fans span{
+        display: inline-block;
+        font-size: 11px;
+        line-height: 15px;
+        vertical-align: top;
+    }
+    /*翻页器的css*/
+    .page{
+        float: right;
+        height: 20px;
+        margin-top: 31px;
+    }
+    .page li{
+        list-style: none;
+        line-height: 20px;
+        vertical-align: top;
+        text-align: center;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .page li{
+        display: inline-block;
+        width: 20px;
+    }
+    .page li:hover{
+        color: #fff;
+        background-color: #9dd8b1;
+        cursor: pointer;
+    }
+    .page .back,.page .forward{
+        display: inline-block;
+        width: 30px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #9dd8b1;
+    }
+    .page .back li,.page .forward li{
+        width: 30px;
+        margin-left: 0;
+    }
+    .page .back{
+        margin-right: 3px;
+    }
+    .page .forward{
+        margin-left: 13px;
+        margin-right: 20px;
+    }
+    .page .chosen{
+        color: #39a030;
+    }
+    .page .notchosen{
+        color: #666;
+    }
+
+    /*底部的css*/
+    .m-footer{
+        box-sizing:border-box;
+        padding-top: 95px;
+        font-family: "Microsoft YaHei";
+        width: 100%;
+        height: 262px;
+        background-color: #2c3339;
+    }
+    .m-footer .info{
+        display: inline-block;
+        margin-left: 51px;
+    }
+    .m-footer .big{
+        line-height: 20px;
+        margin-bottom: 23px;
+    }
+    .m-footer .inform{
+        font-size: 12.5px;
+        line-height: 25px;
+        color: rgb(255,255,255);
+/*        opacity: 0.6;
+*/        color: rgba(255, 255, 255, 0.6);
+    }
+    .m-footer .more{
+        float: right;
+        display: inline-block;
+        margin-right: 206px;
+    }
+    .m-footer .more div{
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 73px;
+    }
+    .m-footer .more div:first-of-type{
+        margin-right: 27px;
+    }
+    .m-footer .more span,.m-footer .more a{
+        font-size: 12.5px;
+        line-height: 29.17px;
+        display: block;
+        color: rgb(255,255,255);
+        color: rgba(255, 255, 255, 0.6);
+/*        opacity: 0.6;
+*/    }
+    .m-footer .more a{
+        font-size: 14.58px;
+    }
+    .m-footer .more a:hover{
+        text-decoration: underline;
+    }
+    .m-footer .more img{
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+
+    .background{
+        position: absolute;
+        height: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-color: rgba(51,51,51,0.8);
+        font-family: "Microsoft YaHei";
+    }
+
+    /*登陆弹出框的css*/
+    .m-login .login{
+        position: relative;
+        box-sizing:border-box;
+        height: 288px;
+        width: 387px;
+        background-color: #fff;
+        margin: auto auto;
+        margin-top: 200px;
+        padding: 25px 52px 40px 40px;
+    }
+    .m-login span,.m-video span{
+        color: #444;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+    .m-login input{
+        width: 295px;
+        height: 45px;
+        box-sizing:border-box;
+        padding-left: 10px;
+        font-size: 16px;
+        border: 1px solid #dfdfdf;
+        background-color: #fafafa;
+        box-shadow: inset 2.828px 2.828px 0px 0px rgba(241, 241, 241, 0.392);
+
+    }
+    .m-login .username{
+        margin-bottom: 15px;
+    }
+    .m-login .button button{
+        width: 293px;
+        height: 45px;
+        border:none;
+        background-color: #1aa43a;
+    /*    background-image: url(button.png)*/
+        box-shadow: 1.928px 2.298px 0px 0px rgba(7, 91, 36, 0.067);
+        color: #fff;
+        font-size: 16px;
+        margin-top: 29px;
+    }
+    .m-login .cancel,.m-video .cancel{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 23px;
+        height: 22px;
+        background-image: url(../img/cancel.png);
+        border:none;
+    }
+
+    /*视频弹出框的css*/
+    .m-video .video{
+        position: relative;
+        width: 950px;
+        height: 676px;
+        background-color: #fff;
+        margin: auto auto;
+        margin-top: 946px;
+        box-sizing:border-box;
+        padding: 25px 52px 40px 40px;
+    }
+    .m-video video{
+        width: 890px;
+        height: 566px;
+    }
+
+/*窄屏*/
+
+@media screen and (max-width:1204px){
+    .content{
+        width: 960px;
+    }
+
+    
+    /*轮播头图下面产品的css（网易公开课、云课堂、中国大学MOOC）*/
+    .public,.cloud,.mooc{
+        width: 270px;
+
+    }
+    .cloud,.mooc{
+        margin-left: 60px;
+    }
+    .m-product .img{
+        margin-right: 20px;
+    }
+    .m-product .words{
+        width: 170px;
+    }
+    
+
+    /*下方课程部分的css*/
+    .m-class-left{
+        width: 735px;
+
+    }
+    
+    .m-class-right{
+        width: 224px;
+        margin-left: 1px;
+    }
+    
+    /*底部的css*/
+    
+    .m-footer .info{
+        margin-left: 0;
+    }
+   
+    .m-footer .more{
+        margin-right: 10px;
+    }
+}
+
